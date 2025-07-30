@@ -1,25 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '2229102064193975');
-fbq('track', 'PageView');
-fbq('track', 'Subscribe', {value: '0.00', currency: 'USD', predicted_ltv: '0.00'});
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=2229102064193975&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-    <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Join Telegram Channel</title>
@@ -44,4 +25,54 @@ src="https://www.facebook.com/tr?id=2229102064193975&ev=PageView&noscript=1"
       border-radius: 12px;
       cursor: pointer;
       text-decoration: none;
-      box-shadow: 0 4px 10px rgba(
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: background 0.3s, transform 0.2s;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .telegram-button:hover {
+      background-color: #006c99;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 480px) {
+      .telegram-button {
+        width: 90%;
+        font-size: 16px;
+        padding: 14px 0;
+      }
+    }
+  </style>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2229102064193975');
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=2229102064193975&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+</head>
+<body>
+
+  <a href="https://t.me/+4tsGtwReZZ9hOWY1"
+     target="_blank"
+     class="telegram-button"
+     onclick="fbq('track', 'Subscribe', {value: '0.00', currency: 'USD', predicted_ltv: '0.00'});">
+    🚀 JOIN NOW
+  </a>
+
+</body>
+</html>
