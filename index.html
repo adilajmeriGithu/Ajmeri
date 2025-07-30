@@ -11,9 +11,17 @@
       margin: 0;
       padding: 0;
       display: flex;
+      flex-direction: column;
       height: 100vh;
       justify-content: center;
       align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .heading {
+      font-size: 22px;
+      margin-bottom: 20px;
     }
 
     .telegram-button {
@@ -28,7 +36,6 @@
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
       transition: background 0.3s, transform 0.2s;
       display: inline-block;
-      text-align: center;
     }
 
     .telegram-button:hover {
@@ -41,6 +48,11 @@
         width: 90%;
         font-size: 16px;
         padding: 14px 0;
+      }
+
+      .heading {
+        font-size: 18px;
+        padding: 0 10px;
       }
     }
   </style>
@@ -55,7 +67,7 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2229102064193975'); // Your Pixel ID
+    fbq('init', '2229102064193975');
     fbq('track', 'PageView');
   </script>
   <noscript>
@@ -66,6 +78,8 @@
 
 </head>
 <body>
+
+  <div class="heading">👇 JOIN TELEGRAM CHANNEL 👇</div>
 
   <a href="https://t.me/+4tsGtwReZZ9hOWY1"
      target="_blank"
